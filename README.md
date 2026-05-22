@@ -27,7 +27,7 @@ npm run check
 ## Package Entry
 
 ```ts
-import { createGreeting } from 'pet__library-llm-boilerplate';
+import {createGreeting} from 'pet__library-llm-boilerplate';
 
 console.log(createGreeting('Agent'));
 ```

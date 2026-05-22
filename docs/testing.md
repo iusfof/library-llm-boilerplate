@@ -22,10 +22,9 @@ Before finalizing a task or publishing a package, run:
 npm run check
 ```
 
-This command runs type checking, linting, formatting checks, tests, the build,
-and package validation.
+This command runs type checking, linting, formatting checks, tests, the build, and package validation.
 
 ## Package Validation
 
-`npm run package:check` verifies the package contents with `npm pack --dry-run`
-and checks the published package shape with `publint`.
+`npm run package:check` verifies the package contents with `npm pack --dry-run` and checks the published package shape
+with `publint`.

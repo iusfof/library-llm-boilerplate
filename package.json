@@ -54,11 +54,22 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint src test",
-    "package:check": "npm_config_cache=.npm-cache npm pack --dry-run && npm_config_cache=.npm-cache publint",
+    "lint-staged": "lint-staged",
+    "package:check": "HUSKY=0 npm_config_cache=.npm-cache npm pack --dry-run && HUSKY=0 npm_config_cache=.npm-cache publint",
+    "prepare": "husky",
     "prepublishOnly": "npm run check",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "*.{ts,js,mjs,cjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
@@ -66,6 +77,8 @@
     "@types/node": "25.9.1",
     "@vitest/coverage-v8": "4.1.7",
     "eslint": "10.4.0",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.5",
     "prettier": "3.8.3",
     "publint": "0.3.21",
     "rimraf": "6.1.3",

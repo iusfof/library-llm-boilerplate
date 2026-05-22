@@ -5,6 +5,7 @@ This directory contains project documentation for maintainers and agents.
 ## Sections
 
 - `architecture.md`: package structure and build output.
+- `ci.md`: pull request checks, branch protection, and release workflow behavior.
 - `development.md`: local development workflow and dependency policy.
 - `testing.md`: verification commands and expected checks.
 - `release.md`: npm publishing and GitHub Actions release workflow.

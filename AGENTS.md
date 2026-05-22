@@ -33,7 +33,7 @@ These instructions apply to the whole repository.
 [YYYY-MM-DD HH:mm UTC]-[CURRENT_BRANCH_NAME].md
 ```
 
-- If a branch name contains path separators, replace them by "_".
+- If a branch name contains path separators, replace them by "\_".
 - Decision files must use this template:
 
 ```md

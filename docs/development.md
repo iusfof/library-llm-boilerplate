@@ -11,8 +11,8 @@
 npm install
 ```
 
-The repository uses `.npmrc` with `save-exact=true`. All dependencies must be
-recorded with exact versions in `package.json`.
+The repository uses `.npmrc` with `save-exact=true`. All dependencies must be recorded with exact versions in
+`package.json`.
 
 When adding a dependency, use:
 
@@ -25,8 +25,10 @@ Do not commit dependency versions with `^` or `~` ranges.
 
 ## Workflow
 
-Create a separate branch for each task, run the relevant checks, and commit
-small logical changes after verification.
+Create a separate branch for each task, run the relevant checks, and commit small logical changes after verification.
+
+Pre-commit checks are managed by Husky and lint-staged. The pre-commit hook runs linters and Prettier only for staged
+files.
 
 Use npm scripts as the source of truth:
 
