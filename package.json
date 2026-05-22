@@ -1,5 +1,5 @@
 {
-  "name": "pet__library-llm-boilerplate",
+  "name": "library-llm-boilerplate",
   "version": "0.1.0",
   "description": "A strict TypeScript library boilerplate for npm packages built with LLM agents.",
   "license": "MIT",
@@ -62,6 +62,7 @@
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
+    "@ianvs/prettier-plugin-sort-imports": "4.7.1",
     "@types/node": "25.9.1",
     "@vitest/coverage-v8": "4.1.7",
     "eslint": "10.4.0",

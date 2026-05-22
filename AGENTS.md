@@ -30,10 +30,10 @@ These instructions apply to the whole repository.
 - Name log and decision files with this pattern:
 
 ```text
-[YYYY-MM-DD HH:mm by UTC]-[CURRENT_BRANCH_NAME].md
+[YYYY-MM-DD HH:mm UTC]-[CURRENT_BRANCH_NAME].md
 ```
 
-- If a branch name contains path separators, create the corresponding nested path under `docs/logs/` or `docs/decisions/`.
+- If a branch name contains path separators, replace them by "_".
 - Decision files must use this template:
 
 ```md

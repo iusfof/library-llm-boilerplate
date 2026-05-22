@@ -1,4 +1,4 @@
-# pet\_\_library-llm-boilerplate
+# library-llm-boilerplate
 
 A strict TypeScript library boilerplate for npm packages built with LLM agents.
 
