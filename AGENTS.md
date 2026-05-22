@@ -9,6 +9,7 @@ These instructions apply to the whole repository.
 
 ## Dependency Policy
 
+- Ask the user for explicit permission before adding any new dependency.
 - Always use exact dependency versions.
 - Do not add semver ranges such as `^` or `~` to `package.json`.
 - Keep `save-exact=true` in `.npmrc`.

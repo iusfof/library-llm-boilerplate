@@ -14,6 +14,8 @@ npm install
 The repository uses `.npmrc` with `save-exact=true`. All dependencies must be recorded with exact versions in
 `package.json`.
 
+Before adding any new dependency, ask the user for explicit permission.
+
 When adding a dependency, use:
 
 ```sh
